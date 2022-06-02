@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.xcheko51x.adminbibliotecaapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AdminBibliotecaApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".Vistas.FormPrestamo"
+            android:exported="false" />
+        <activity
+            android:name=".Vistas.FormAgregarLibro"
+            android:exported="false" />
+        <activity
+            android:name=".Vistas.VistaPrestamos"
+            android:exported="false" />
+        <activity
+            android:name=".Vistas.VistaCategorias"
+            android:exported="false" />
+        <activity
+            android:name=".Vistas.VistaLibros"
+            android:exported="false" />
+        <activity
+            android:name=".Vistas.VistaEditoriales"
+            android:exported="false" />
+        <activity
+            android:name=".Vistas.VistaAutores"
+            android:exported="false" />
+        <activity
+            android:name=".Vistas.VistaUsuarios"
+            android:exported="false" />
+        <activity
+            android:name=".Vistas.VistaNavegacion"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginScreen"
+            android:exported="false" />
+    </application>
+
+</manifest>

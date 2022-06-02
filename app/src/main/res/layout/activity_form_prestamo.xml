@@ -1,0 +1,125 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:padding="20dp"
+            android:gravity="center"
+            android:text="PRESTAR LIBRO"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@color/morado_oscuro" />
+
+        <TextView
+            android:id="@+id/tvISBN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ISBN"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="10dp" />
+
+        <TextView
+            android:id="@+id/tvNomLibro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NOMBRE LIBRO"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="10dp" />
+
+        <TextView
+            android:id="@+id/tvNomAutor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NOMBRE AUTOR"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="10dp" />
+
+        <TextView
+            android:id="@+id/tvCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="CATEGORIA"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="10dp" />
+
+        <TextView
+            android:id="@+id/tvDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="DESCRIPCIÓN"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="10dp" />
+
+        <TextView
+            android:id="@+id/tvEditorial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="EDITORIAL"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="10dp" />
+
+        <TextView
+            android:id="@+id/tvAnioPublicacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="AÑO DE PUBLICACIÓN"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="10dp" />
+
+        <TextView
+            android:id="@+id/tvEdicion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="EDICIÓN"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="10dp" />
+
+        <TextView
+            android:id="@+id/tvExistencias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="EXISTENCIAS"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="10dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginVertical="10dp"
+            android:hint="*SELECCIONA EL USUARIO">
+
+            <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+                android:id="@+id/spiUsuarios"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnPrestar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="10dp"
+            android:text="PRESTAR" />
+
+    </LinearLayout>
+
+</LinearLayout>
