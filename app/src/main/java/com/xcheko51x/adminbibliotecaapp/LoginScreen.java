@@ -107,10 +107,10 @@ public class LoginScreen extends AppCompatActivity {
                 // En este metodo se hace el envio de valores de la aplicacion al servidor
                 Map<String, String> parametros = new Hashtable<String, String>();
                 parametros.put("accion", "200");
-                //parametros.put("usuario", etUsuario);
-                //parametros.put("contrasena", etContrasena);
-                parametros.put("usuario", "adm0001");
-                parametros.put("contrasena", "sergiop");
+                parametros.put("usuario", etUsuario);
+                parametros.put("contrasena", etContrasena);
+                //parametros.put("usuario", "adm0001");
+                //parametros.put("contrasena", "sergiop");
 
                 return parametros;
             }

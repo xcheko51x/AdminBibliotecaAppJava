@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:padding="20dp"
+            android:gravity="center"
+            android:text="INFORMACIÓN PRESTAMO"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@color/morado_oscuro" />
+
+        <TextView
+            android:id="@+id/tvFechaPrestamo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="FECHA PRESTAMO"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@color/gris_oscuro"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="INFORMACIÓN USUARIO"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvIdUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID USUARIO"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="5dp" />
+
+        <TextView
+            android:id="@+id/tvNomUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NOMBRE USUARIO"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:text="INFORMACIÓN LIBRO"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@color/gris_oscuro" />
+
+        <TextView
+            android:id="@+id/tvISBN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ISBN"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="5dp" />
+
+        <TextView
+            android:id="@+id/tvNomLibro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NOMBRE LIBRO"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="5dp" />
+
+        <TextView
+            android:id="@+id/tvNomAutor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NOMBRE AUTOR"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="5dp" />
+
+        <TextView
+            android:id="@+id/tvEditorial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="EDITORIAL"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="5dp" />
+
+        <TextView
+            android:id="@+id/tvAnioPublicacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="AÑO DE PUBLICACIÓN"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="5dp" />
+
+        <TextView
+            android:id="@+id/tvEdicion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="EDICIÓN"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="5dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

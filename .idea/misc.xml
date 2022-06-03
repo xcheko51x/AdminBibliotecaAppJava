@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AdminBibliotecaAppJava/app/src/main/res/layout/activity_vista_prestamos.xml" value="0.28940217391304346" />
+        <entry key="..\:/AdminBibliotecaAppJava/app/src/main/res/layout/alert_dialog_devolucion_libro.xml" value="0.1" />
+        <entry key="..\:/AdminBibliotecaAppJava/app/src/main/res/layout/item_rv_prestamo.xml" value="0.1" />
         <entry key="..\:/AndroidStudioProjects/AdminBibliotecaApp/app/src/main/res/layout/activity_detalles_libro.xml" value="0.182518115942029" />
         <entry key="..\:/AndroidStudioProjects/AdminBibliotecaApp/app/src/main/res/layout/activity_form_agregar_libro.xml" value="0.10177595628415301" />
         <entry key="..\:/AndroidStudioProjects/AdminBibliotecaApp/app/src/main/res/layout/activity_form_prestamo.xml" value="0.25416666666666665" />
