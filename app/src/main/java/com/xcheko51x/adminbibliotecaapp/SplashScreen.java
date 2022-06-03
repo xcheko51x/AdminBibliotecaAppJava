@@ -13,7 +13,7 @@ import com.xcheko51x.adminbibliotecaapp.databinding.ActivitySplashScreenBinding;
 
 public class SplashScreen extends AppCompatActivity {
 
-    int DURACION_PANTALLA = 1000;
+    int DURACION_PANTALLA = 4000;
     private ActivitySplashScreenBinding binding;
 
     @Override
